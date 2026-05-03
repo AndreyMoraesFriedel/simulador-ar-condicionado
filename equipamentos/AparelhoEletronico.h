@@ -14,7 +14,7 @@ namespace equipamentos {
             void ligar();
             void desligar();
             bool isLigado() const;
-            virtual double gerarCalor() override;
+            virtual double gerarCalor() const override;
     };
 }
 

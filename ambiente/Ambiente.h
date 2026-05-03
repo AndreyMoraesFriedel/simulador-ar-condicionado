@@ -30,7 +30,10 @@ namespace ambiente {
             void adicionarLuz(const equipamentos::Luz& l);
             void adicionarPorta(const Porta& p);
             void adicionarJanela(const Janela& j);
-            double calcularCalorInterno();
+            double calcularCalorInterno() const;
+            double getTamanho() const;
+            double getTemperaturaExterna() const;
+            const std::vector<Janela>& getJanelas() const;
     };
 
 }

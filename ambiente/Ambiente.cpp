@@ -36,18 +36,31 @@ namespace ambiente {
         janelas.push_back(j);
     }
 
-    double Ambiente::calcularCalorInterno() {
+    double Ambiente::calcularCalorInterno() const {
         double total = 0;
-        for (auto& p : pessoas)
+
+        for (const auto& p : pessoas)
             total += p.gerarCalor();
 
         for (auto* a : aparelhos)
             total += a->gerarCalor();
 
-        for (auto& l : luzes)
+        for (const auto& l : luzes)
             total += l.gerarCalor();
-            
+
         return total;
+    }
+
+    double Ambiente::getTamanho() const {
+        return tamanho;
+    }
+
+    double Ambiente::getTemperaturaExterna() const {
+        return temperaturaExterna;
+    }
+
+    const std::vector<Janela>& Ambiente::getJanelas() const {
+        return janelas;
     }
 
 }

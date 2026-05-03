@@ -18,7 +18,7 @@ namespace pessoas {
             Pessoa(double calor = 120.0);
             //informando que esta subclasse ira sobreescrever
             //o metodo da classe mae
-            double gerarCalor() override;
+            double gerarCalor() const override;
     };
 
 }

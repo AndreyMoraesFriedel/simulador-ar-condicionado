@@ -34,7 +34,7 @@ namespace energia {
         referência da classe base executará a implementação da 
         subclasse, e não a da base
         */
-        virtual double gerarCalor() = 0;
+        virtual double gerarCalor() const = 0;
         /*
         Isso garante que o destrutor da subclasse seja chamado 
         corretamente quando um objeto derivado for deletado por 

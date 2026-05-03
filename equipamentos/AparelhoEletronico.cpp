@@ -19,7 +19,7 @@ namespace equipamentos {
         return ligado;
     }
 
-    double AparelhoEletronico::gerarCalor() {
+    double AparelhoEletronico::gerarCalor() const {
         return ligado ? potencia : 0.0;
     }
 

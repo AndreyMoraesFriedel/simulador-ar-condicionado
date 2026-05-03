@@ -15,7 +15,7 @@ namespace equipamentos {
         ligada = false;
     }
 
-    double Luz::gerarCalor() {
+    double Luz::gerarCalor() const {
         return ligada ? potencia : 0.0;
     }
 

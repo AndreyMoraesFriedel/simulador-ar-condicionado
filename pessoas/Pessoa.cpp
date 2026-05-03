@@ -6,7 +6,7 @@ namespace pessoas {
         this->calorGerado = calor;
     }
 
-    double Pessoa::gerarCalor() {
+    double Pessoa::gerarCalor() const {
         return calorGerado;
     }
 

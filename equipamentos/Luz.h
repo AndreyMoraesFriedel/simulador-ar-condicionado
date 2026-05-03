@@ -13,7 +13,7 @@ namespace equipamentos {
             Luz(double potencia);
             void ligar();
             void desligar();
-            double gerarCalor() override;
+            double gerarCalor() const override;
     };
 
 }
