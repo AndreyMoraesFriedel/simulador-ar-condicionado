@@ -156,5 +156,5 @@ A escala de cores é calculada dinamicamente utilizando os menores e maiores val
 
 **YouTube**
 
-> Inserir aqui o link do vídeo.
+> Veja a simulação na prática [aqui.](https://youtu.be/fdBkuh_gjbs)
 
