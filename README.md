@@ -39,19 +39,9 @@ O mapa de calor permite observar a influência da quantidade de pessoas e comput
 
 ---
 
-# Estrutura do Projeto
+# Diagrama de Classe
 
-```
-ambiente/
-calculos/
-entrada/
-equipamentos/
-interface/
-simulacao/
-
-simulador.db
-entrada.csv
-```
+<img width="400" height="500" alt="diagramaclasse" src="https://github.com/user-attachments/assets/391c0fe2-cc0e-4fb7-b32a-bda5c1194d7f" />
 
 ---
 
